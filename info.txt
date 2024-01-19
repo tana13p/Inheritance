@@ -1,0 +1,12 @@
+datasets
+  train fares
+  metro fares
+  taxi fares
+  rick fares
+  bus fares 
+  monorail fares
+
+map apis - with realtime traffic, route calculation
+
+fastest route- either inbuilt with the map api OR we'll have to figure out an algorithm if real time data not available
+cheapest route - algorithm to calculate fare by each route and compare
