@@ -2,7 +2,12 @@ datasets
   train fares
   metro fares
   taxi fares
+      black-yellow taxi
+      28 rs for first 1.5 km, +18.66 rs per km, extra 25% at night (12 am to 5 am)
+      cool cab
+      33 rs for first 1.5 km, +22 rs per km, extra 25% at night (12 am to 5 am)
   rick fares
+      23 rs for first 1.5 km, +15.33 rs per km, extra 25% at night (12 am to 5 am)
   bus fares 
   monorail fares
 
