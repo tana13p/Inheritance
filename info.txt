@@ -1,22 +1,39 @@
-datasets
-  train fares
-  metro fares
-  taxi fares
-      black-yellow taxi
-      28 rs for first 1.5 km, +18.66 rs per km, extra 25% at night (12 am to 5 am)
-      cool cab
-      33 rs for first 1.5 km, +22 rs per km, extra 25% at night (12 am to 5 am)
-  rick fares
-      23 rs for first 1.5 km, +15.33 rs per km, extra 25% at night (12 am to 5 am)
-  bus fares 
-  monorail fares
+Public transportation in New York City types:
 
-map apis - with realtime traffic, route calculation
+external links to get data
+https://data.ny.gov/
+https://opendata.cityofnewyork.us/
 
-fastest route- either inbuilt with the map api OR we'll have to figure out an algorithm if real time data not available
-cheapest route - algorithm to calculate fare by each route and compare
+Subway:
+https://data.cityofnewyork.us/Transportation/Subway-Lines/3qz8-muuu
+https://github.com/gilzreid/MTAData (subway fares)
+https://new.mta.info/fares (info about fares of subway and bus)
+https://www.r-bloggers.com/2022/08/exploring-types-of-subway-fares-with-hierarchical-forecasting/(fares and how he has reduced the dataset)
+https://www.kaggle.com/datasets/new-york-state/nys-nyc-transit-subway-entrance-and-exit-data
 
+Bus: 
+https://www.kaggle.com/datasets/stoney71/new-york-city-transport-statistics/data
 
-https://1drv.ms/x/s!AgNw4cXlB_oMg3k3P2coRxsgQVrT?e=9k308a&nav=MTVfe0IxRDlGRkRCLTAzNzktNDM1Ny1CQjE0LTUyMkVGNjNFOEREMn0
+Taxi: 
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+https://www.kaggle.com/datasets/microize/nyc-taxi-dataset
+https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction(fare)
 
-link to dataset excel file
+Rail: 
+https://data.cityofnewyork.us/Transportation/Railroad-Line/i7a5-bsik
+
+Ferry:
+https://data.cityofnewyork.us/Transportation/Railroad-Line/i7a5-bsik
+https://catalog.data.gov/dataset/nyc-ferry-ridership
+
+Bicycle Sharing System: 
+https://citibikenyc.com/system-data
+https://www.kaggle.com/datasets/akkithetechie/new-york-city-bike-share-dataset/code
+https://www.civicdata.com/dataset/nyc-bike-share-trip-data
+https://citibikenyc.com/pricing (fare)
+
+real time traffic data
+https://www.nyc.gov/html/dot/html/motorist/atis.shtml#transitmap
+check openTraffic
+https://github.com/opentraffic/otv2-platform
+https://new.mta.info/developers (for subway rail and bus)
