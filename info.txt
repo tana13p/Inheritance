@@ -4,7 +4,7 @@ external links to get data
 https://data.ny.gov/
 https://opendata.cityofnewyork.us/
 
-Subway:
+Subway: 
 https://data.cityofnewyork.us/Transportation/Subway-Lines/3qz8-muuu
 https://github.com/gilzreid/MTAData (subway fares)
 https://new.mta.info/fares (info about fares of subway and bus)
@@ -20,7 +20,7 @@ https://www.kaggle.com/datasets/microize/nyc-taxi-dataset
 https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction(fare)
 
 Rail: 
-https://data.cityofnewyork.us/Transportation/Railroad-Line/i7a5-bsik
+https://data.cityofnewyork.us/Transportation/Railroad-Line/i7a5-bsik 
 
 Ferry:
 https://data.cityofnewyork.us/Transportation/Railroad-Line/i7a5-bsik
@@ -28,7 +28,7 @@ https://catalog.data.gov/dataset/nyc-ferry-ridership
 
 Bicycle Sharing System: 
 https://citibikenyc.com/system-data
-https://www.kaggle.com/datasets/akkithetechie/new-york-city-bike-share-dataset/code
+https://www.kaggle.com/datasets/akkithetechie/new-york-city-bike-share-dataset/code 
 https://www.civicdata.com/dataset/nyc-bike-share-trip-data
 https://citibikenyc.com/pricing (fare)
 
