@@ -13,7 +13,7 @@ Route Radar is a transportation recommendation application for New York City, co
 
 - **Development:** Built with Flutter and ML (Python).
 - **ML:** Utilizes Random Forest model for fare prediction.
-- **Data:** Public transportation data and APIs from [Insert Sources].
+- **Data:** Public transportation data from https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction 
 
 ## Installation
 
