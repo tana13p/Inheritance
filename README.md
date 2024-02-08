@@ -1,6 +1,6 @@
 # Route Radar
 
-Route Radar is a transportation recommendation application for New York City, combining app development and machine learning to offer optimized routes and fare information across multiple modes of transportation.
+Route Radar is a transportation application for New York City, combining app development and machine learning to offer optimized routes and fare information across multiple modes of transportation.
 
 ## Features
 
@@ -27,6 +27,7 @@ Route Radar is a transportation recommendation application for New York City, co
 1. Clone the repository.
 2. Install dependencies.
 3. Run the application.
+4. API key is required to run some of the processes
 
 ## Usage
 
