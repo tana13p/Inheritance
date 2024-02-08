@@ -7,9 +7,8 @@ class BusFareCalculator:
         self.fare_type = fare_type.lower()
 
     def calculate_fare(self):
-        base_fare = 2.75  # NYC MTA base fare as of knowledge cutoff (2022)
-        additional_fare_per_mile = 0.55  # Example additional fare per mile
-
+        base_fare = 2.75  
+        additional_fare_per_mile = 0.55  
         if self.fare_type == 'regular':
             fare = base_fare + additional_fare_per_mile * self.distance
         elif self.fare_type == 'student':
@@ -21,14 +20,6 @@ class BusFareCalculator:
 
         return round(fare, 2)
 
-# Example usage:
-distance_traveled = 5  # Example distance in miles
-fare_type = 'regular'  # Example fare type
-
-calculator = BusFareCalculator(distance_traveled, fare_type)
-total_fare = calculator.calculate_fare()
-
-print(f"The bus fare for {distance_traveled} miles ({fare_type} fare) is: ${total_fare}")
 
 #CitiBike Fare
 class CitiBikeFareCalculator:
@@ -64,14 +55,6 @@ class CitiBikeFareCalculator:
 
         return round(fare, 2)
 
-# Example usage:
-membership_type = 'single_ride'  # Example membership type
-usage_time_minutes = 45  # Example usage time in minutes
-
-citi_bike_calculator = CitiBikeFareCalculator(membership_type, usage_time_minutes)
-total_fare = citi_bike_calculator.calculate_fare()
-
-print(f"The Citi Bike fare for {membership_type} membership and {usage_time_minutes} minutes is: ${total_fare}")
 
 #Ferry Fare
 class FerryFareCalculator:
@@ -100,15 +83,6 @@ class FerryFareCalculator:
 
         return round(fare, 2)
 
-# Example usage:
-distance_traveled = 15  # Example distance in miles
-service_type = 'standard'  # Example ferry service type
-fare_type = 'regular'  # Example fare type
-
-ferry_calculator = FerryFareCalculator(distance_traveled, service_type, fare_type)
-total_fare = ferry_calculator.calculate_fare()
-
-print(f"The ferry fare for {distance_traveled} miles ({service_type} service, {fare_type} fare) is: ${total_fare}")
 
 #Rail Fare
 class RailFareCalculator:
@@ -139,15 +113,6 @@ class RailFareCalculator:
 
         return round(fare, 2)
 
-# Example usage:
-distance_traveled = 20  # Example distance in miles
-service_type = 'commuter'  # Example rail service type
-fare_type = 'regular'  # Example fare type
-
-rail_calculator = RailFareCalculator(distance_traveled, service_type, fare_type)
-total_fare = rail_calculator.calculate_fare()
-
-print(f"The rail fare for {distance_traveled} miles ({service_type} service, {fare_type} fare) is: ${total_fare}")
 
 #Subway Fare
 class SubwayFareCalculator:
@@ -167,14 +132,6 @@ class SubwayFareCalculator:
             raise ValueError("Invalid fare type. Available types: regular, student, senior")
 
         return round(fare, 2)
-
-# Example usage:
-fare_type = 'regular'  # Example fare type
-
-subway_calculator = SubwayFareCalculator(fare_type)
-total_fare = subway_calculator.calculate_fare()
-
-print(f"The subway fare ({fare_type} fare) is: ${total_fare}")
 
 
 
